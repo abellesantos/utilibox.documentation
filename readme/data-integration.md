@@ -1,4 +1,5 @@
 ---
+description: Energy Simplified
 layout:
   width: default
   title:
@@ -16,10 +17,6 @@ layout:
 ---
 
 # Data Integration
-
-## Data Integration
-
-Energy Simplified
 
 ### Reference Data
 
