@@ -22,6 +22,8 @@ Utilibox offers customers a user-friendly way to navigate the often-complex ener
 
 Energy users can now handle their energy data more effectively and without hassle.
 
+Explore [data-integration.md](readme/data-integration.md "mention")
+
 <figure><img src=".gitbook/assets/Flowchart.png" alt=""><figcaption></figcaption></figure>
 
 ### Dashboard
