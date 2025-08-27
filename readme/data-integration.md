@@ -18,6 +18,12 @@ layout:
 
 # Data Integration
 
+Utilibox offers customers a user-friendly way to navigate the often-complex energy markets. Breaking down complicated energy data sets, making things like invoices, meter data, network tariffs, and supply point details easier to understand and manage.
+
+Energy users can now handle their energy data more effectively and without hassle.
+
+<figure><img src="../.gitbook/assets/Flowchart.png" alt=""><figcaption></figcaption></figure>
+
 ### Reference Data
 
 This feature is where Utilibox stores different data sources that is referenced across other Utilibox features like network tariff review, environmental reports and retailer information.
