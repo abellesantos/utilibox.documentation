@@ -28,6 +28,8 @@ Energy users can now handle their energy data more effectively and without hassl
 
 This feature is where Utilibox stores different data sources that is referenced across other Utilibox features like network tariff review, environmental reports and retailer information.
 
+_Note: Most of these data are only available to view/edit for EAX admin users._
+
 #### Emission Factors
 
 A carbon emission factor (EF) is a coefficient that estimates how much greenhouse gas (GHG) is released into the atmosphere by a specific activity. EFs are used to calculate carbon footprints and evaluate the environmental impact of products and processes.

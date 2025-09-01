@@ -33,3 +33,17 @@ You need to see an overview of your organization? At a quick glance you'll be ab
 Utilibox makes managing your energy simpler and user-friendly.
 
 <figure><img src="../.gitbook/assets/Dashboard.png" alt=""><figcaption></figcaption></figure>
+
+Upon login, user will be directed to the Organisation’s home page or dashboard and the available features that user can navigate to.
+
+1. Home button - this feature allows users to navigate back to the Dashboard from other windows or tabs in Utilibox
+2. Organisation Name and Logo
+3. Account Manager – shows the name of the Energy Action representative managing the organisation.
+4. Metrics Analyst – shows the name of the Energy Action analyst managing the deliverables for the organisation.
+5. User profile button - this feature serves the following purposes:
+   * Allow users to logout
+   * Allow EAX users to go back to the EAX admin page when in an organisation window
+   * View the username logged in
+   * View the current version of Utilibox
+6. Hamburger button - this feature allows users to hide/show the toolbar
+7. Toolbar - this feature allows users to navigate the available menus
