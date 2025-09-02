@@ -28,6 +28,8 @@ This page allows users to create/update procurement events, contracts and displa
 
 To navigate to the Procurement page--- from the toolbar menu click on Procurement which would show the following pages:
 
+<figure><img src="../.gitbook/assets/Procurement Toolbar.gif" alt=""><figcaption></figcaption></figure>
+
 ### Procurement Events
 
 This feature allows users to manage and create procurements for SME customers and present the available offers from different participants and be able to compare and choose the best offer for their needs.

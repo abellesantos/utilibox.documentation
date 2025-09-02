@@ -36,6 +36,8 @@ Utilibox makes managing your energy simpler and user-friendly.
 
 Upon login, user will be directed to the Organisation’s home page or dashboard and the available features that user can navigate to.
 
+<figure><img src="../.gitbook/assets/Dashboard Toolbar.gif" alt=""><figcaption></figcaption></figure>
+
 1. Home button - this feature allows users to navigate back to the Dashboard from other windows or tabs in Utilibox
 2. Organisation Name and Logo
 3. Account Manager – shows the name of the Energy Action representative managing the organisation.
