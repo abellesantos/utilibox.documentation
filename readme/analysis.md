@@ -16,9 +16,9 @@ layout:
     visible: true
 ---
 
-# Reports
+# Analysis
 
-Utilibox' reports feature helps optimise your financial and energy strategies with comprehensive insights.
+Utilibox' reports feature helps optimize your financial and energy strategies with comprehensive insights.
 
 * Spend Reports - understand your spending trends and make informed financial decisions.
 * Usage Reports - aids in identifying usage patterns and implementing efficiency measures.
