@@ -82,13 +82,11 @@ This feature allows Energy Action to list and manage available energy plan refer
 
 <figure><img src="../.gitbook/assets/EnergyPlan.png" alt=""><figcaption></figcaption></figure>
 
-### Invoice Upload
+### Invoice/Meter Data Upload
 
-This feature allows you to upload invoices manually/import a template to parse and create the invoice record to its respective organisation.&#x20;
+This feature allows you to upload invoices/meter data manually or import a template to parse and create the invoice record to its respective site.&#x20;
 
-<figure><img src="../.gitbook/assets/InvoiceUpload1.png" alt=""><figcaption></figcaption></figure>
-
-#### Ways to parse invoices
+#### Ways to parse invoices/meter data
 
 _**Dragging and dropping the files on the pink area.**_
 
@@ -96,33 +94,16 @@ _**Dragging and dropping the files on the pink area.**_
 
 _**Clicking on the Upload file button**_
 
-<div align="left"><figure><img src="../.gitbook/assets/InvoiceUpload3.png" alt=""><figcaption></figcaption></figure></div>
-
-1. File Explorer will open > navigate to where invoices to upload are stored/saved&#x20;
-
-<div align="left"><figure><img src="../.gitbook/assets/InvoiceUpload5.png" alt=""><figcaption></figcaption></figure></div>
-
+1. File Explorer will open > navigate to where invoices/meter data to upload are stored/saved&#x20;
 2. Select the file/s to be uploaded --- can be multiple, and click Open
+3. This will upload the files as shown below and ready to be processed, Click on process to proceed with parsing the invoices/meter data.&#x20;
+4. Upon processing, the status of each invoice/meter data will be shown on the “Processing Status” column.&#x20;
+5. And will show the final status once done.
+6. User can remove/view/reparse a file > a delete, view and reparse button are available at the end of each line.&#x20;
 
-<figure><img src="../.gitbook/assets/InvoiceUpload5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Invoice Upload.gif" alt=""><figcaption></figcaption></figure>
 
-3. This will upload the files as shown below and ready to be processed, Click on process to proceed with parsing the invoices.&#x20;
-
-<figure><img src="../.gitbook/assets/InvoiceUpload6.png" alt=""><figcaption></figcaption></figure>
-
-4. Upon processing, the status of each invoice will be shown on the “Processing Status” column.&#x20;
-
-<figure><img src="../.gitbook/assets/InvoiceUpload7.png" alt=""><figcaption></figcaption></figure>
-
-5. And will show the final status once done.&#x20;
-
-<figure><img src="../.gitbook/assets/InvoiceUpload8.png" alt=""><figcaption></figcaption></figure>
-
-6. User can remove/view/reparse a file > a delete, view and reparse button are available at the end of each invoice line.&#x20;
-
-<figure><img src="../.gitbook/assets/InvoiceUpload9.png" alt=""><figcaption></figcaption></figure>
-
-_**Importing a template**_
+_**Importing a template (only applicable for invoices)**_
 
 In instances where an excel file is provided with invoice details, this option can be used to process and link the individual invoices to its corresponding organisation.
 
@@ -131,50 +112,10 @@ In instances where an excel file is provided with invoice details, this option c
 <figure><img src="../.gitbook/assets/InvoiceUpload10.png" alt=""><figcaption></figcaption></figure>
 
 2. This will download an excel template to where the details are entered following the format necessary to successfully parse the invoice details.
-3. Once file is ready, the file can now be uploaded by either dragging the file or clicking on the Upload file button found int the pink area
+3. Once file is ready, the file can now be uploaded by either dragging the file or clicking on the Upload file button found in the pink area
 
 > _Note: you can drag/upload multiple files at once including an excel file using the import template._
 
-A csv file can be exported to show the result of the parsed invoices by clicking on the Export CSV button.&#x20;
 
-<figure><img src="../.gitbook/assets/InvoiceUpload11.png" alt=""><figcaption></figcaption></figure>
 
-An exported file includes information parsed from the invoice.
-
-### Meter Data Upload
-
-This feature allows you to upload meter data manually to parse and create the meter data record to its respective organisation.&#x20;
-
-<figure><img src="../.gitbook/assets/MeterDataUpload1.png" alt=""><figcaption></figcaption></figure>
-
-#### Ways to parse meter data
-
-_**Dragging and dropping the files on the pink area**_
-
-<figure><img src="../.gitbook/assets/MeterDataUpload2.png" alt=""><figcaption></figcaption></figure>
-
-_**Clicking on the Upload file button**_
-
-<div align="left"><figure><img src="../.gitbook/assets/InvoiceUpload3.png" alt=""><figcaption></figcaption></figure></div>
-
-1. File Explorer will open > navigate to where meter data file to upload are stored/saved and select the file/s to be uploaded --- can be multiple, and click Open
-
-<figure><img src="../.gitbook/assets/MeterDataUpload3.png" alt=""><figcaption></figcaption></figure>
-
-2. This will upload the files as shown below and ready to be processed, Click on process to proceed with parsing the meter data file
-
-<figure><img src="../.gitbook/assets/MeterDataUpload4.png" alt=""><figcaption></figcaption></figure>
-
-3. Upon processing, the status of each file will be shown on the “Processing Status” column (user can also choose to cancel the process if needed)
-
-<figure><img src="../.gitbook/assets/MeterDataUpload5.png" alt=""><figcaption></figcaption></figure>
-
-&#x20;      And will show the final status once done.
-
-4. If you want to remove/reparse a file, a delete and reparse button are available at the end of each line
-
-<figure><img src="../.gitbook/assets/MeterDataUpload6.png" alt=""><figcaption></figcaption></figure>
-
-> _Note: you can drag/upload multiple files at once_
-
-A csv file can be exported to show the result of the parsed meter data file by clicking on the Export CSV button.
+\*\*A csv file can be exported to show the result of the parsed invoices/meter data by clicking on the Export CSV button. An exported file includes information parsed from the invoice/meter data.

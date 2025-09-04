@@ -8,6 +8,6 @@
   * [Procurement](readme/procurement.md)
   * [Finance](readme/finance.md)
   * [Net Zero](readme/net-zero.md)
-  * [Analysis](readme/analysis.md)
+  * [Analysis](readme/reports.md)
   * [Admin](readme/admin.md)
   * [Security](readme/security.md)

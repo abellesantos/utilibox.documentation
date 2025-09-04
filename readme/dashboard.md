@@ -34,7 +34,7 @@ Utilibox makes managing your energy simpler and user-friendly.
 
 <figure><img src="../.gitbook/assets/Dashboard.png" alt=""><figcaption></figcaption></figure>
 
-Upon login, user will be directed to the Organisation’s home page or dashboard and the available features that user can navigate to.
+Upon login, user will be directed to the Organisation’s home page or dashboard and the available features that user can navigate to. To navigate a dashboard effectively, we start by understanding its layout, including the menu, data visualization panels, and interactive elements like quick links.
 
 <figure><img src="../.gitbook/assets/Dashboard Toolbar.gif" alt=""><figcaption></figcaption></figure>
 
