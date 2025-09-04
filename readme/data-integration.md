@@ -86,6 +86,8 @@ This feature allows Energy Action to list and manage available energy plan refer
 
 This feature allows you to upload invoices/meter data manually or import a template to parse and create the invoice record to its respective site.&#x20;
 
+> _Note: Meter Data upload is only available for EAX admin users_
+
 #### Ways to parse invoices/meter data
 
 _**Dragging and dropping the files on the pink area.**_
