@@ -81,3 +81,163 @@ This process allows a mandatory review of the AP file details and ability to inp
 * This process generate emails for manual submission first while still at the early stages and automatically mark the report as submitted once the email is generated.
 * Can also be used if manual submission is needed in case of data issues.
 * During the generation process, a zip file of invoices and a payment file will be generated and will be uploaded to azure. Once generated, a .eml file will be downloaded in the browser . The email will contain clickable buttons to download the zipped invoices and payment file.
+
+### Invoices
+
+This feature shows all available invoices received and processed in Utilibox for the organisation with the following details.
+
+> _Default view:_\
+> &#x20;_- current month invoice period_\
+> &#x20;_- current month issue date_\
+> \
+> &#xNAN;_&#x43;licking on the “View All Historical Invoices” will remove the default filters and will show all available invoices for the organisation_
+
+* Invoice Type – this field shows the type of invoice received
+  * Standard
+  * Final
+  * Adjustment
+  * Consolidated
+* Period – invoice bill period start and end date
+* Retailer
+* Account number
+* Invoice number
+* Issue date
+* Property
+* Reference Codes
+  * Cost Code – as set up in the organisation tree
+  * Retailer Code – as set up in the organisation tree
+  * Asset Code
+* Payment Details
+  * Balance carried – amount unpaid from previous invoice/s
+  * Current Amount (including GST)
+  * Total due (including GST)
+  * Payment due date
+  * Next meter read date when available on the invoice
+* Validation Status
+* Actions
+  * Download Invoice
+  * Download csv summary
+  * View Invoice File/Information
+  * Reparse
+
+### Accruals
+
+This feature shows substitute data for periods with missing data. This provides a complete dataset to support various Utilibox modules like budgets and SME procurement. Once actual data becomes available, the accrual data will be replaced with actual data. This page shows the following details:
+
+> _\*Only Operational Utilities are provided with accrual data_
+>
+> _Default view:_
+>
+> &#x20;\- current month invoice period
+>
+> _\*Clicking on the “View All Historical Invoices” will remove the default filters and will show all available accruals for the organisation._
+
+* Property
+  * Site Name
+  * Commodity – shown as a symbol
+  * Utility Identifier
+  * Closure date when applicable
+* Reference Codes
+  * Cost Code – as set up in the organisation tree
+  * Retailer Code – as set up in the organisation tree
+  * Asset Code
+* Last Invoice Details
+  * Period – date of the service period for the invoice
+  * Balance carried – amount unpaid from previous invoice/s
+  * Current Amount (including GST)
+  * Total due (including GST)
+  * Payment due date
+* Accrual Details
+  * Period – date of the service period for the accrual
+  * Spend – estimated amount
+  * Usage – estimated usage
+  * Effective rate – estimated rate
+  * Method references – data used to calculate for the estimate
+* File Download – allows for a csv file to be downloaded for the accrual line
+
+### Budgets
+
+This feature allows clients to create budgets and track actual spending against the budget set throughout the year. A client can create multiple scenarios that they can analyze.
+
+_Main Data Sources:_
+
+* Latest successfully parsed invoice(s) – doesn’t necessarily mean the invoice from the most recent period, instead the latest invoice available in UB.
+* Accruals as substitute for missing actual data from invoices
+* Retail Contract Rates
+* EAPI – Energy Action price index containing data from past auctions
+* Environmental Certificate rates
+* Environmental Compliance %
+* Network Spend % change per Market Segment (C\&I/SME)
+* For Bundled - % cost allocations to unbundled energy spend, network spend and environmental spend
+
+_Estimation Methods:_
+
+* Baseline costs: average of prior invoices
+* Baseline and forward usage 1: data from same period of prior year
+* Non-bundled electricity energy spend 1 (no contract in place for budget period): data from same period of prior year with applied adjustments based on retail price index movement (when there is no contract)
+* Non-bundled network spend: data from same period of prior year with applied adjustments based on network price movement
+* Non-bundled network electricity energy spend 2 (contract in place for budget period): estimate based on usage from same period of prior year and contract rates
+* Non-bundled electricity energy spend 3 (contract in place for part of budget period only): estimate based on usage from same period of prior year and combination of contract rates and retail price index
+* Non-bundled enviro spend 1 (contract in place for part of budget period only): estimate based on usage from same period of prior year and combination of contract rates and certificate price index
+* Non-bundled enviro spend 2 (no contract in place for budget period): estimate based on usage from same period of prior year and certificate price index
+* Non-bundled other spend: estimate based on usage from same period of prior year and rate from latest invoice
+* Bundled energy spend: unbundled estimate from June in prior year data to June in previous year with applied adjustments based on retail price index movement
+* Bundled network spend: unbundled estimate from prior year data with applied adjustments based on network price movement
+* Bundled enviro spend: unbundled estimate from prior year data with applied adjustments based on certificate price index movement
+* Bundled other spend: unbundled estimate from prior year data
+* Unbundled estimate from latest invoice
+* Import budget: custom calculations – this is the default for imported budget scenarios
+
+&#x20;    _**Baseline Estimation**_\
+&#x20;    _For non-bundled_\
+&#x20;    \- actuals/accruals from prior year are used
+
+&#x20;    _For bundled/SME_\
+&#x20;    \- bundled spend from prior year and % cost allocations for Energy Spend, Network Spend and\
+&#x20;      Environmental Spend will be applied. If there are no defined % cost allocations, the\
+&#x20;      followingdefaults will be applied:\
+&#x20;              \- 50% for Energy\
+&#x20;              \- 40% for Network\
+&#x20;              \- 10% for Environmental
+
+&#x20;    _**Budget Estimation**_\
+&#x20;    _Estimated Energy Spend_\
+&#x20;    \- for past or current period – will utilize the latest successfully parsed invoice(s)\
+&#x20;    \- for future period and with an active contract for the utility during the budget period\
+&#x20;         \* C\&I – retail spend will come from:\
+&#x20;                 \- Average rate from latest invoice\
+&#x20;                 \- Average rate from contract rates\
+&#x20;                 \- EAPI rates for days not covered by contract\
+&#x20;                 \- Utility’s estimated usage based on prior year\
+&#x20;         \* Bundled/SME\
+&#x20;                 \- Unbundled Energy Spend baseline\
+&#x20;                 \- % change of retail price index (prior period vs budget period)
+
+&#x20;    \- if estimation fails from the above and no market index is available, default to market rates or rates\
+&#x20;      from the last invoice will be utilized\
+&#x20;         \* Electricity C\&I – latest retail price index for the state\
+&#x20;         \* Electricity SME or WA bundled – estimate based on EAPI for the state and rough estimate of\
+&#x20;            50% energy costs for bundled energy invoices\
+&#x20;         \* Gas – rate from latest invoice multiplied by utility’s estimated usage based on prior year
+
+&#x20;    _Estimated Network Spend_\
+&#x20;    \- apply relative network spend changes if applicable, else use data from prior period (same approach\
+&#x20;      for both Electricity, Gas, C\&I and SME)\
+&#x20;    \- data reference can be exported in the EAX admin > Networks page
+
+&#x20;    _Estimated Environmental Spend_\
+&#x20;    \- for past or current period – will utilize the latest successfully parsed invoice(s)\
+&#x20;    \- for future period and with an active contract for the utility during the budget period\
+&#x20;         \* C\&I – environmental spend will come from:\
+&#x20;                 \- Contract Supply Point average rate\
+&#x20;                 \- Latest environmental certificate rate for days not covered by contract\
+&#x20;                 \- Utility’s estimated usage based on prior year\
+&#x20;         \* SME\
+\
+&#x20;    \- if estimation fails from the above and no market index is available, default to market rates or rates \
+&#x20;      from the last invoice will be utilized\
+&#x20;         \* Electricity C\&I – latest environmental certificate rate for the state\
+&#x20;         \* Electricity SME – 0
+
+&#x20;    _Estimated Other Spend_\
+&#x20;    \- sum of prior period’s Adjustments, Market Charges, Metering Charges and Other Charges
