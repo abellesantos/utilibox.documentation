@@ -188,56 +188,54 @@ _Estimation Methods:_
 * Unbundled estimate from latest invoice
 * Import budget: custom calculations – this is the default for imported budget scenarios
 
-&#x20;    _**Baseline Estimation**_\
-&#x20;    _For non-bundled_\
-&#x20;    \- actuals/accruals from prior year are used
+_**BASELINE ESTIMATION**_\
+&#xNAN;_&#x46;or non-bundled_\
+\- actuals/accruals from prior year are used
 
-&#x20;    _For bundled/SME_\
-&#x20;    \- bundled spend from prior year and % cost allocations for Energy Spend, Network Spend and\
-&#x20;      Environmental Spend will be applied. If there are no defined % cost allocations, the\
-&#x20;      followingdefaults will be applied:\
+_For bundled/SME_\
+\- bundled spend from prior year and % cost allocations for Energy Spend, Network Spend and       Environmental Spend will be applied. If there are no defined % cost allocations, the followingdefaults will be applied:\
 &#x20;              \- 50% for Energy\
 &#x20;              \- 40% for Network\
 &#x20;              \- 10% for Environmental
 
-&#x20;    _**Budget Estimation**_\
-&#x20;    _Estimated Energy Spend_\
-&#x20;    \- for past or current period – will utilize the latest successfully parsed invoice(s)\
-&#x20;    \- for future period and with an active contract for the utility during the budget period\
-&#x20;         \* C\&I – retail spend will come from:\
-&#x20;                 \- Average rate from latest invoice\
-&#x20;                 \- Average rate from contract rates\
-&#x20;                 \- EAPI rates for days not covered by contract\
-&#x20;                 \- Utility’s estimated usage based on prior year\
-&#x20;         \* Bundled/SME\
-&#x20;                 \- Unbundled Energy Spend baseline\
-&#x20;                 \- % change of retail price index (prior period vs budget period)
+_**BUDGET ESTIMATION**_\
+&#xNAN;_&#x45;stimated Energy Spend_\
+\- for past or current period – will utilize the latest successfully parsed invoice(s)\
+\- for future period and with an active contract for the utility during the budget period
 
-&#x20;    \- if estimation fails from the above and no market index is available, default to market rates or rates\
-&#x20;      from the last invoice will be utilized\
-&#x20;         \* Electricity C\&I – latest retail price index for the state\
-&#x20;         \* Electricity SME or WA bundled – estimate based on EAPI for the state and rough estimate of\
-&#x20;            50% energy costs for bundled energy invoices\
-&#x20;         \* Gas – rate from latest invoice multiplied by utility’s estimated usage based on prior year
+* C\&I – retail spend will come from:
+  * Average rate from latest invoice
+  * Average rate from contract rates
+  * EAPI rates for days not covered by contract
+  * Utility’s estimated usage based on prior year
+* Bundled/SME
+  * Unbundled Energy Spend baseline
+  * % change of retail price index (prior period vs budget period)
 
-&#x20;    _Estimated Network Spend_\
-&#x20;    \- apply relative network spend changes if applicable, else use data from prior period (same approach\
-&#x20;      for both Electricity, Gas, C\&I and SME)\
-&#x20;    \- data reference can be exported in the EAX admin > Networks page
+\- if estimation fails from the above and no market index is available, default to market rates or rates from the last invoice will be utilized
 
-&#x20;    _Estimated Environmental Spend_\
-&#x20;    \- for past or current period – will utilize the latest successfully parsed invoice(s)\
-&#x20;    \- for future period and with an active contract for the utility during the budget period\
-&#x20;         \* C\&I – environmental spend will come from:\
-&#x20;                 \- Contract Supply Point average rate\
-&#x20;                 \- Latest environmental certificate rate for days not covered by contract\
-&#x20;                 \- Utility’s estimated usage based on prior year\
-&#x20;         \* SME\
-\
-&#x20;    \- if estimation fails from the above and no market index is available, default to market rates or rates \
-&#x20;      from the last invoice will be utilized\
-&#x20;         \* Electricity C\&I – latest environmental certificate rate for the state\
-&#x20;         \* Electricity SME – 0
+* Electricity C\&I – latest retail price index for the state
+* Electricity SME or WA bundled – estimate based on EAPI for the state and rough estimate of 50% energy costs for bundled energy invoices
+* Gas – rate from latest invoice multiplied by utility’s estimated usage based on prior year
 
-&#x20;    _Estimated Other Spend_\
-&#x20;    \- sum of prior period’s Adjustments, Market Charges, Metering Charges and Other Charges
+_Estimated Network Spend_\
+\- apply relative network spend changes if applicable, else use data from prior period (same approach for both Electricity, Gas, C\&I and SME)\
+\- data reference can be exported in the EAX admin > Networks page
+
+_Estimated Environmental Spend_\
+\- for past or current period – will utilize the latest successfully parsed invoice(s)\
+\- for future period and with an active contract for the utility during the budget period
+
+* C\&I – environmental spend will come from:
+  * Contract Supply Point average rate
+  * Latest environmental certificate rate for days not covered by contract
+  * Utility’s estimated usage based on prior year
+* SME
+
+\- if estimation fails from the above and no market index is available, default to market rates or rates from the last invoice will be utilized
+
+* Electricity C\&I – latest environmental certificate rate for the state
+* Electricity SME – 0
+
+_Estimated Other Spend_\
+\- sum of prior period’s Adjustments, Market Charges, Metering Charges and Other Charges
