@@ -12,7 +12,7 @@ layout:
   pagination:
     visible: false
   metadata:
-    visible: true
+    visible: false
 ---
 
 # Sites Modal

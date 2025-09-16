@@ -13,7 +13,7 @@ layout:
   pagination:
     visible: false
   metadata:
-    visible: true
+    visible: false
 ---
 
 # Data Integration
