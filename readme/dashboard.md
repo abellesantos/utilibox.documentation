@@ -18,7 +18,7 @@ layout:
 
 # Dashboard
 
-Utilibox is an easy-to-use app that helps you handle all your energy needs.
+Energy management doesn’t have to be complicated. Too often, data is scattered, disorganized, and hard to act on—slowing down decisions and driving up costs. Utilibox changes that. It collects your energy data automatically, organizes it into clear insights, and centralizes everything in one intuitive platform. With powerful tools and instant access at your fingertips, Utilibox empowers you to take control, cut through complexity, and make smarter energy decisions with ease.
 
 You need to see an overview of your organization? At a quick glance you'll be able to view:
 

@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Unboxing Utilibox](README.md)
-  * [Data Integration](readme/data-integration.md)
   * [Dashboard](readme/dashboard.md)
   * [Portfolio and Sites](readme/portfolio-and-sites/README.md)
     * [Sites Modal](readme/portfolio-and-sites/sites-modal.md)
@@ -14,4 +13,5 @@
   * [Net Zero](readme/net-zero.md)
   * [Analysis](readme/reports.md)
   * [Admin](readme/admin.md)
+  * [Data Integration](readme/data-integration.md)
   * [Security](readme/security.md)
