@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Unboxing Utilibox](README.md)
+* [Utilibox Documentation](README.md)
   * [Dashboard](readme/dashboard.md)
   * [Portfolio and Sites](readme/portfolio-and-sites/README.md)
     * [Sites Modal](readme/portfolio-and-sites/sites-modal.md)

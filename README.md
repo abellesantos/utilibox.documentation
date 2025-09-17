@@ -1,5 +1,4 @@
 ---
-description: Utilibox Documentation
 layout:
   width: default
   title:
@@ -16,7 +15,7 @@ layout:
     visible: false
 ---
 
-# Unboxing Utilibox
+# Utilibox Documentation
 
 <p align="center">Utilibox simplifies energy management by combining finance, procurement, and sustainability tools in one platform. Access data, track performance, and stay in control with powerful insights.</p>
 
