@@ -1,25 +1,6 @@
----
-description: >-
-  This feature displays substitute data for periods with missing data.
-  Substitute data fills gaps for a complete Utilibox dataset, replaced by actual
-  data when available.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
----
-
 # Accruals
+
+This page displays substitute data for periods with missing data. Substitute data fills gaps for a complete Utilibox dataset, replaced by actual data when available.
 
 This page shows the following details:
 

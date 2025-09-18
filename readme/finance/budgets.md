@@ -1,8 +1,5 @@
 ---
-description: >-
-  This feature enables clients to create budgets and track actual spending
-  against these budgets throughout the year. Clients can also create multiple
-  scenarios for analysis.
+description: Stay on track with budgets, actuals, and scenario planning—all in one place.
 layout:
   width: default
   title:
@@ -20,6 +17,8 @@ layout:
 ---
 
 # Budgets
+
+Budgeting can be challenging when actual spending isn’t tracked against plans. Utilibox’s Budgets feature solves this by allowing clients to create budgets, monitor spending throughout the year, and compare results. It also supports multiple scenarios for deeper analysis and smarter financial planning.
 
 _Main Data Sources:_
 

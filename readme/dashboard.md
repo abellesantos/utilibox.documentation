@@ -20,8 +20,6 @@ layout:
 
 Energy management doesn’t have to be complicated. Too often, data is scattered, disorganized, and hard to act on—slowing down decisions and driving up costs. Utilibox changes that. It collects your energy data automatically, organizes it into clear insights, and centralizes everything in one intuitive platform. With powerful tools and instant access at your fingertips, Utilibox empowers you to take control, cut through complexity, and make smarter energy decisions with ease.
 
-
-
 Upon login, users land on the organization’s dashboard, where they can navigate menus, data panels, and quick links for easy access.
 
 1. Home button - this feature allows users to navigate back to the Dashboard from other windows or tabs in Utilibox
@@ -40,12 +38,12 @@ Upon login, users land on the organization’s dashboard, where they can navigat
 
 You need to see an overview of your organization? At a quick glance you'll be able to view:
 
-1. Sites Under Management - shows the number of sites with details of number of supply points and their current status for your organization. With a quick link to the [Sites](portfolio-and-sites/) page.
-2. Total Amount Due - shows your organization's total bills/amount to be paid from the most recent invoices received for the month. With a quick link to the [Invoices](finance/invoices.md) page with applied filters.
-3. Total Amount Overdue - shows your organization's total missed bills/amount to be paid from previous months invoices. With a quick link to the [Invoices](finance/invoices.md) page with applied filters.
-4. Invoice Completeness - shows your organization's stats of invoices received in the last 12 months. With a quick link to the Missing Invoices page with applied filters.
-5. Spend Chart - shows your organization's monthly spend per commodity and broken down per charge based on available invoices with comparison from previous to current calendar year.
-6. Emissions Chart - shows your organization's monthly emissions per commodity based on avalable usage data with comparison from previous to current calendar year.
+1. **Sites Under Management** - shows the number of sites with details of number of supply points and their current status for your organization. With a quick link to the [Sites](portfolio-and-sites/) page.
+2. **Total Amount Due** - shows your organization's total bills/amount to be paid from the most recent invoices received for the month. With a quick link to the [Invoices](finance/invoices-or-accruals/) page with applied filters.
+3. **Total Amount Overdue** - shows your organization's total missed bills/amount to be paid from previous months invoices. With a quick link to the [Invoices](finance/invoices-or-accruals/) page with applied filters.
+4. **Invoice Completeness** - shows your organization's stats of invoices received in the last 12 months. With a quick link to the Missing Invoices page with applied filters.
+5. **Spend Chart** - shows your organization's monthly spend per commodity and broken down per charge based on available invoices with comparison from previous to current calendar year.
+6. **Emissions Chart** - shows your organization's monthly emissions per commodity based on avalable usage data with comparison from previous to current calendar year.
 7. For help or advice, your account manager and metrics analyst is a click away to contact.
 
 Utilibox makes managing your energy simpler and user-friendly.

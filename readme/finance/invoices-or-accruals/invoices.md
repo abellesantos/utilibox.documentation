@@ -1,7 +1,4 @@
 ---
-description: >-
-  This feature displays all processed and received invoices for the organization
-  in Utilibox.
 layout:
   width: default
   title:
@@ -19,6 +16,8 @@ layout:
 ---
 
 # Invoices
+
+This page displays all processed and received invoices for the organization in Utilibox.
 
 > _Default view:_\
 > &#x20;_- current month invoice period_\

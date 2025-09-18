@@ -1,5 +1,7 @@
 ---
-description: Financial efficiency
+description: >-
+  Save time and cut costs—automate payments, track spending, and manage invoices
+  in one place.
 layout:
   width: default
   title:
@@ -18,13 +20,20 @@ layout:
 
 # Finance
 
-Utilibox' finance module is all about making financial tasks simpler:
+The Finance module makes managing energy finances easy. Automate accounts payable, track spending, plan budgets, and monitor invoices—all in one place. You can even upload bills to improve data quality, with automated processing keeping everything simple and secure.
 
-* Automating accounts payable tasks
-* Provide spending and accrual files
-* Lets you plan budgets under different scenarios
-* Monitor invoice completion and validation
+{% columns fullWidth="false" %}
+{% column width="50%" %}
+<p align="center"><a href="accounts-payable/" class="button secondary" data-icon="file-invoice-dollar">Accounts Payable</a></p>
 
-Also has a feature for uploading bills. Allowing users to improve the quality of their invoice data without depending on others. Its automated invoice processing offers a single digital platform for all finance functions.
+<p align="center"><a href="budgets.md" class="button secondary" data-icon="envelope-open-dollar">Budgets</a></p>
+{% endcolumn %}
 
-<div align="left"><figure><img src="../../.gitbook/assets/Finance.png" alt=""><figcaption></figcaption></figure></div>
+{% column width="50%" %}
+<p align="center"><a href="invoices-or-accruals/" class="button secondary" data-icon="money-bill-transfer">Invoices | Accruals</a></p>
+
+<p align="center"><a href="budgets.md" class="button secondary" data-icon="clipboard-list-check">Invoice Completion</a></p>
+{% endcolumn %}
+{% endcolumns %}
+
+<div align="center"><figure><img src="../../.gitbook/assets/Finance.png" alt=""><figcaption></figcaption></figure></div>
