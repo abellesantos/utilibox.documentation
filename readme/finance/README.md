@@ -24,15 +24,15 @@ The Finance module makes managing energy finances easy. Automate accounts payabl
 
 {% columns fullWidth="false" %}
 {% column width="50%" %}
-<p align="center"><a href="accounts-payable/" class="button secondary" data-icon="file-invoice-dollar">Accounts Payable</a></p>
+<a href="accounts-payable/" class="button secondary" data-icon="file-invoice-dollar">Accounts Payable</a>
 
-<p align="center"><a href="budgets.md" class="button secondary" data-icon="envelope-open-dollar">Budgets</a></p>
+<a href="budgets.md" class="button secondary" data-icon="envelope-open-dollar">Budgets</a>
 {% endcolumn %}
 
 {% column width="50%" %}
-<p align="center"><a href="invoices-or-accruals/" class="button secondary" data-icon="money-bill-transfer">Invoices | Accruals</a></p>
+<a href="invoices-or-accruals/" class="button secondary" data-icon="money-bill-transfer">Invoices | Accruals</a>
 
-<p align="center"><a href="budgets.md" class="button secondary" data-icon="clipboard-list-check">Invoice Completion</a></p>
+<a href="budgets.md" class="button secondary" data-icon="clipboard-list-check">Invoice Completion</a>
 {% endcolumn %}
 {% endcolumns %}
 
