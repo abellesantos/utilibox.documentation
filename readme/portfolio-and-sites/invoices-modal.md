@@ -15,9 +15,9 @@ layout:
     visible: false
 ---
 
-# Sites Modal
+# Invoices Modal
 
-### Invoices Modal
+### Modal details:
 
 * Settings – this allows the user to edit the date range of the invoices to be shown in the modal instead of the default last 12 months
 * Site address – as setup in the organisation tree
@@ -47,27 +47,4 @@ layout:
     * Reparse
     * View invoice
   * Download All Invoices – action to export all invoices available on the modal based on the set date range filter
-
-### Contracts Modal
-
-* Site address – as setup in the organisation tree
-* Commodity – as setup in the organisation tree
-* Table Summary with the following details:
-  * Type
-  * Subtype
-  * Signed
-  * Start
-  * End
-  * Retailer
-  * Actions - View Contract Rates
-
-### Utility Details Modal
-
-* Site address – as setup in the organisation tree
-* Commodity – as setup in the organisation tree
-* Utility Identifier – as setup in the organisation tree
-* Network Tariff – as setup in the organisation tree from Utility Properties
-* Transmission Loss Factor – as shown/parsed from the latest invoice when available otherwise as shown from the organisation tree from Utility Properties
-* Distribution Loss Factor – as shown/parsed from the latest invoice when available otherwise as shown from the organisation tree from Utility Properties
-* Meter Numbers – as shown/parsed from the latest invoice when available otherwise will be blank
 

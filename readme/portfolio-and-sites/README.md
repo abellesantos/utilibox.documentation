@@ -42,6 +42,6 @@ To navigate to the Sites page--- from the toolbar menu, click on the Sites tab w
 * Average Rate – this column shows the yearly average rate from the estimated spend over estimated usage per year
 * Tags – this is a customer-defined label for sites
 * Actions
-  * Invoices – a quick link to view invoices from the last 12 months for the site
-  * Contracts – a quick link to view available contracts for the site
-  * Utility Details – a quick link to view network details of the site
+  * Invoices – a quick [link](invoices-modal.md) to view invoices from the last 12 months for the site
+  * Contracts – a quick [link](contracts-modal.md) to view available contracts for the site
+  * Utility Details – a quick [link](utility-details.md) to view network details of the site
