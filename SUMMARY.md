@@ -11,6 +11,7 @@
       * [Contract Types and Validation](readme/procurement/contracts/contract-types-and-validation.md)
       * [Adding a Contract](readme/procurement/contracts/adding-a-contract.md)
       * [Viewing a Contract](readme/procurement/contracts/viewing-a-contract.md)
+    * [Contract Transfers](readme/procurement/contract-transfers.md)
     * [Procurement Events](readme/procurement/procurement-events/README.md)
       * [Adding a Procurement Event](readme/procurement/procurement-events/adding-a-procurement-event.md)
       * [Viewing a Procurement Event](readme/procurement/procurement-events/viewing-a-procurement-event.md)
