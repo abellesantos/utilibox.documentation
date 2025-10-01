@@ -1,4 +1,5 @@
 ---
+description: Securely store portal logins and automate bill downloads.
 layout:
   width: default
   title:
@@ -17,4 +18,14 @@ layout:
 
 # Retailer Portal Logins
 
-_Retailer Portal Logins_ You can securely record your retailer portal login details. This enables automatic scraping of portal logins to download bills. This minimises bill handling, reducing time spent and potential errors.
+Manually downloading bills from retailer portals is time-consuming and prone to error. The Retailer Portal Logins page solves this by letting you securely store your login details, enabling automatic bill retrieval through secure scraping. This reduces handling, saves time, and ensures greater accuracy in your billing data.
+
+### Adding Portal Login
+
+1. Click on +New Login button
+2. Fill in the details on the pop-up window for the retailer portal information
+   * Retailer
+   * Username
+   * Password
+   * Alternative Identifier (Optional)
+3. Click Save
