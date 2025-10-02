@@ -1,0 +1,25 @@
+---
+description: Zeroing in
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+---
+
+# Environmental
+
+Meeting environmental requirements and tracking sustainability progress can be complex without the right tools. The Environmental page solves this by bringing together all features related to emissions reporting, compliance, and strategy—helping your organization measure impact, stay compliant, and move confidently toward its net zero goals.
+
+Utilibox's Environmental features actively supports users in beginning their journey towards net zero emissions. Offering emissions reporting and supporting net zero strategies.
+
+<div align="left"><figure><img src="../../.gitbook/assets/Net Zero.png" alt=""><figcaption></figcaption></figure></div>
