@@ -28,6 +28,6 @@ This page allows users to create/update procurement events, contracts and displa
 
 To navigate to the Procurement page--- from the toolbar menu click on Procurement which would show the following pages:
 
-<p align="center"><a href="contracts/" class="button secondary" data-icon="file-signature">Contracts</a>        <a href="contract-transfers.md" class="button secondary" data-icon="right-left-large">Contract Transfers</a>        <a href="procurement-events/" class="button secondary" data-icon="cart-shopping">Procurement Events</a></p>
+<table data-view="cards"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><a href="../../.gitbook/assets/Contracts.png">Contracts.png</a></td></tr><tr><td><a href="../../.gitbook/assets/Contract Transfers.png">Contract Transfers.png</a></td></tr><tr><td><a href="../../.gitbook/assets/Procurement Events.png">Procurement Events.png</a></td></tr></tbody></table>
 
 <figure><img src="../../.gitbook/assets/Procurement Toolbar.gif" alt=""><figcaption></figcaption></figure>

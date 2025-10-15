@@ -25,8 +25,6 @@ Utilibox' reports feature helps optimize your financial and energy strategies wi
 * Emissions Reports - facilitates the tracking and strategising for businesses carbon reduction efforts.
 * Network Tariff Optimisation - processes available data to help businesses lower energy costs by making sure they’re on the most efficient tariff for how they actually use electricity.
 
-<p align="center"><a href="spend.md" class="button secondary" data-icon="money-simple-from-bracket">Spend</a>          <a href="usage.md" class="button secondary" data-icon="transformer-bolt">Usage</a>          <a href="emissions.md" class="button secondary" data-icon="industry-windows">Emissions</a>         </p>
-
-<p align="center"> <a href="network-tariff-optimisation.md" class="button secondary" data-icon="arrow-down-arrow-up">NTO</a>          <a href="report-history.md" class="button secondary" data-icon="timeline-arrow">Report History</a></p>
+<table data-view="cards"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="../../.gitbook/assets/Spend.png">Spend.png</a></td><td><a href="spend.md">spend.md</a></td></tr><tr><td><a href="../../.gitbook/assets/Usage.png">Usage.png</a></td><td><a href="usage.md">usage.md</a></td></tr><tr><td><a href="../../.gitbook/assets/Emissions.png">Emissions.png</a></td><td><a href="emissions.md">emissions.md</a></td></tr><tr><td><a href="../../.gitbook/assets/NTO.png">NTO.png</a></td><td><a href="network-tariff-optimisation.md">network-tariff-optimisation.md</a></td></tr><tr><td><a href="../../.gitbook/assets/Reports History.png">Reports History.png</a></td><td><a href="report-history.md">report-history.md</a></td></tr></tbody></table>
 
 <div align="center"><figure><img src="../../.gitbook/assets/Reports.png" alt=""><figcaption></figcaption></figure></div>

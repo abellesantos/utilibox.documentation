@@ -56,5 +56,7 @@
       * [Adding Forwarding Route](readme/admin/mailbox/adding-forwarding-route.md)
     * [Retailer Portal Logins](readme/admin/retailer-portal-logins.md)
     * [Alerts](readme/admin/alerts.md)
-  * [Data Integration](readme/data-integration.md)
+  * [Data Integration](readme/data-integration/README.md)
+    * [Invoices | Meter Data Upload](readme/data-integration/invoices-or-meter-data-upload.md)
+    * [Reference Data](readme/data-integration/reference-data.md)
   * [Security](readme/security.md)
