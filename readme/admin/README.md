@@ -20,6 +20,8 @@ layout:
 
 Utilibox help seamlessly manage your company's details, user roles, and communications all in one centralised hub. Tailor the platform to your corporate identity, efficiently oversee subsidiaries, streamline authorisation processes, and simplify bill handling.
 
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href="../../.gitbook/assets/Organization Configuration.png">Organization Configuration.png</a></td></tr></tbody></table>
+
 <a href="organisation-configuration.md" class="button secondary" data-icon="gears">Organisation Configuration</a>
 
 <a href="organisation-tree.md" class="button secondary" data-icon="list-tree">Organisation Tree</a>
