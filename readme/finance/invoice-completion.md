@@ -28,19 +28,25 @@ _Invoice Completeness_
 
 _Main table details:_
 
-* Identifier - NMI/MIRN or unique value that identifies the supply point
-* SLA – (Service Level Agreement) indicates if a supply point has metrics service
-* LOA – (Letter of Authorisation) indicates if a supply point has an active LOA
-* Organisation Name
-* Company Name
-* Commodity
-* Site
-* Retailer – can have multiple instances per Identifier based on date filter
-* Contact – Retailer email address
-* Customer ID – Account number as shown on invoice
-* Invoice Status – indicates the status of an invoice for their corresponding bill period represented by individual boxes
-  * Green box – Received
-  * Red box – Missing
-  * Yellow box – Pending (to be received)
-  * Orange box – Received not parsed
-  * Gray box – bill period is with a different retailer
+* **Identifier** - NMI/MIRN or unique value that identifies the supply point
+* **SLA** – (Service Level Agreement) indicates if a supply point has metrics service
+* **LOA** – (Letter of Authorisation) indicates if a supply point has an active LOA
+* **Organisation Name**
+* **Company Name**
+* **Commodity**
+* **Site**
+* **Retailer** – can have multiple instances per Identifier based on date filter
+* **Contact** – Retailer email address
+* **Customer ID** – Account number as shown on invoice
+* **Invoice Status** – indicates the status of an invoice for their corresponding bill period represented by individual boxes
+  * _Green box_ – Received
+  * _Red box_ – Missing
+  * _Yellow box_ – Pending (to be received)
+  * _Orange box_ – Received not parsed
+  * _Gray box_ – bill period is with a different retailer
+
+#### Generate Invoice Request Email
+
+This feature allows for an email to be created/exported in requesting invoice copies for selected supply points and sent to their designated retailer (based on contact setup in Utilibox) covering the bill period missing.
+
+When you click on "Generate Invoice Request Email" this will download a zipped file containing the email/s that can be used to send to retailers. If there are multiple retailers on the selected supply points, it will generate individual emails per retailer.
