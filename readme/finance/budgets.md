@@ -57,8 +57,7 @@ _For bundled/SME_\
 \- bundled spend from prior year and % cost allocations for Energy Spend, Network Spend and       Environmental Spend will be applied. If there are no defined % cost allocations, the followingdefaults will be applied:\
 &#x20;              \- 50% for Energy\
 &#x20;              \- 40% for Network\
-&#x20;              \- 10% for Environmental\
-
+&#x20;              \- 10% for Environmental<br>
 
 _**BUDGET ESTIMATION**_\
 &#xNAN;_&#x45;stimated Energy Spend_\
