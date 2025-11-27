@@ -21,3 +21,5 @@ layout:
 Calculating carbon emissions is often difficult when data is spread across invoices, meters, and reports. Utilibox solves this by consolidating your energy data to calculate and track your carbon footprint. This makes it easy to compare year-over-year emissions, generate reports, and take meaningful steps toward reduction and net zero goals.
 
 Can be viewed per scope, state, business unit and site code.
+
+Carbon Emissions Breakdown and Renewable Power Purchases Report can also be exported as needed.

@@ -1,11 +1,10 @@
 ---
-description: Plan smarter, report easier, and reach net zero faster.
 layout:
   width: default
   title:
     visible: true
   description:
-    visible: true
+    visible: false
   tableOfContents:
     visible: true
   outline:
@@ -16,9 +15,9 @@ layout:
     visible: false
 ---
 
-# Net Zero
+# Overview
 
-Achieving net zero can feel overwhelming without the right data and tools. Utilibox solves this by centralizing emissions reporting, compliance requirements, and sustainability insights in one place. This makes it easier to track progress, analyze strategies, and take practical steps toward reducing your carbon footprint and reaching your net zero goals.
+This page shows the summary of the Organisation's Net Zero Report based on available data and created scenarios. Users are able to create, refresh/edit or delete scenarios on this page.
 
 ### Create, Refresh and Delete a Net Zero Scenario
 
