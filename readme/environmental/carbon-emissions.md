@@ -23,3 +23,5 @@ Calculating carbon emissions is often difficult when data is spread across invoi
 Can be viewed per scope, state, business unit and site code.
 
 Carbon Emissions Breakdown and Renewable Power Purchases Report can also be exported as needed.
+
+<figure><img src="../../.gitbook/assets/Carbon Emissions Dashboard.gif" alt=""><figcaption></figcaption></figure>
