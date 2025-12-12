@@ -19,6 +19,7 @@
       * [Editing Offers](readme/procurement/procurement-events/editing-offers.md)
       * [Refreshing Offers](readme/procurement/procurement-events/refreshing-offers.md)
       * [Retrying Failed Utilities](readme/procurement/procurement-events/retrying-failed-utilities.md)
+    * [Spot Exposure](readme/procurement/spot-exposure.md)
   * [Finance](readme/finance/README.md)
     * [Accounts Payable](readme/finance/accounts-payable/README.md)
       * [Locking Process](readme/finance/accounts-payable/locking-process.md)
