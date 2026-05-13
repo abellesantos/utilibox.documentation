@@ -19,7 +19,7 @@ layout:
 
 # Configuration of Single Sign‑On (SSO)
 
-Utilibox supports enterprise Single Sign‑On (SSO) using industry‑standard SAML 2.0, allowing your organisation to manage user access securely through your existing identity provider (such as Microsoft
+Utilibox supports enterprise Single Sign‑On (SSO) using industry‑standard SAML 2.0, allowing your organisation to manage user access securely through your existing identity provider (such as Microsoft)
 
 Setting up SSO is a straightforward three‑step process, outlined below.
 
