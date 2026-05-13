@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
----
-
 # Users
 
 Managing user access across an organization can be challenging without a clear system. The Users page solves this by giving admin users a central place to view, add, edit, or remove users. With detailed information on each account, admins can keep access secure and ensure the right people have the right permissions.

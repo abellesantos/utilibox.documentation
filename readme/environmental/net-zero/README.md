@@ -1,19 +1,5 @@
 ---
 description: Plan smarter, report easier, and reach net zero faster.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
 ---
 
 # Net Zero

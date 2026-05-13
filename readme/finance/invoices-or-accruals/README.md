@@ -1,19 +1,5 @@
 ---
 description: View invoices and estimates to keep reports, budgets, and strategies accurate.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
 ---
 
 # Invoices | Accruals

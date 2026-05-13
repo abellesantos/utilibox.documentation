@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
----
-
 # Procurement Events
 
 This feature allows users to manage and create procurements for SME customers and present the available offers from different participants and be able to compare and choose the best offer for their needs.

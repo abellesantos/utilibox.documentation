@@ -1,19 +1,5 @@
 ---
 description: Stop overpaying—optimize tariffs to fit your actual energy needs.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
 ---
 
 # Network Tariff Optimisation

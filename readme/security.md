@@ -1,26 +1,22 @@
 ---
 description: Proactive approach to keeping your data safe
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
 ---
 
 # Security
 
 _**Two out Three Ain't Bad**_
 
-When it comes to authentication, one out of three factors (password-only) is bad. Multifactor authentication (MFA) on the other hand isn't. Utilibox employs MFA to ensure that the user attempting to login is who they claim to be, so your data doesn't fall into the wrong hands.
+When it comes to authentication, one out of three factors (password‑only) is bad. Multifactor authentication (MFA), on the other hand, isn’t. Utilibox employs strong authentication controls to ensure that the user attempting to log in is who they claim to be—so your data doesn’t fall into the wrong hands.
+
+**Energy Action supports Single Sign‑On (SSO)** and offers flexible authentication configurations to suit different enterprise security requirements:
+
+* **Username + Password with MFA**
+* **SSO + Password**
+* **SSO‑only**
+
+<figure><img src="../.gitbook/assets/SSO.png" alt=""><figcaption></figcaption></figure>
+
+Utilibox supports **any enterprise SAML token provider**, including **Microsoft Entra ID**, allowing organisations to centralise identity management while enforcing strong access controls.
 
 _**OLA not BOLA**_
 

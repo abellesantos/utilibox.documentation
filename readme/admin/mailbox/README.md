@@ -1,19 +1,5 @@
 ---
 description: Stay in control with a mailbox that processes, routes, and organizes for you.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
 ---
 
 # Mailbox

@@ -1,19 +1,5 @@
 ---
 description: From energy data to NGERS reports—done in one platform.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
 ---
 
 # NGERS

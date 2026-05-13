@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
----
-
 # Create LOA
 
 This feature allows for an automated generation of LOA to be created by EAX admin users and sent to customers or can be created by customers with admin access.

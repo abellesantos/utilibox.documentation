@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
----
-
 # Organisation Configuration
 
 Organization-wide settings can be hard to manage without a clear central view. This page gives admin users a single place to view and update high-level configurations, keeping your organization aligned and in control.\

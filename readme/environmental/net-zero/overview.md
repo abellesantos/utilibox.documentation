@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
----
-
 # Overview
 
 This page shows the summary of the Organisation's Net Zero Report based on available data and created scenarios. Users are able to create, refresh/edit or delete scenarios on this page.

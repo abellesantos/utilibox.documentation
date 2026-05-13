@@ -1,19 +1,5 @@
 ---
 description: Securely store portal logins and automate bill downloads.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: false
 ---
 
 # Retailer Portal Logins
