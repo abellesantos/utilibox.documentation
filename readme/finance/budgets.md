@@ -1,5 +1,23 @@
 ---
 description: Stay on track with budgets, actuals, and scenario planning—all in one place.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Budgets
@@ -36,7 +54,7 @@ _Estimation Methods:_
 * Import budget: custom calculations – this is the default for imported budget scenarios
 
 _**BASELINE ESTIMATION**_\
-&#xNAN;_&#x46;or non-bundled_\
+_&#x46;or non-bundled_\
 \- actuals/accruals from prior year are used
 
 _For bundled/SME_\
@@ -46,7 +64,7 @@ _For bundled/SME_\
 &#x20;              \- 10% for Environmental<br>
 
 _**BUDGET ESTIMATION**_\
-&#xNAN;_&#x45;stimated Energy Spend_\
+_&#x45;stimated Energy Spend_\
 \- for past or current period – will utilize the latest successfully parsed invoice(s)\
 \- for future period and with an active contract for the utility during the budget period
 

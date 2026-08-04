@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Utilibox Documentation
 
 <p align="center">Utilibox simplifies energy management by combining finance, procurement, and sustainability tools in one platform. Access data, track performance, and stay in control with powerful insights.</p>

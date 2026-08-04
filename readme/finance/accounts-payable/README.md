@@ -1,5 +1,23 @@
 ---
 description: Manage your organization’s payment files with ease and accuracy.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Accounts Payable
@@ -19,3 +37,4 @@ This view lists all reports and provides the ability to download payment files a
 [locking-process.md](locking-process.md "mention")\
 [generating-email-for-submission.md](generating-email-for-submission.md "mention")\
 [settings.md](settings.md "mention")
+

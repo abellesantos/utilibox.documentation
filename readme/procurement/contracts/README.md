@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Contracts
 
 Managing multiple energy contracts can be difficult without a clear, centralized view. The Contracts feature solves this by showing all available contracts for your organization and allowing users to easily add, update, or delete them. This keeps contract information organized, accurate, and always up to date.

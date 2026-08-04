@@ -1,5 +1,23 @@
 ---
 description: Proactive approach to keeping your data safe
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Security
@@ -17,6 +35,8 @@ When it comes to authentication, one out of three factors (password‑only) is b
 <figure><img src="../.gitbook/assets/SSO.png" alt=""><figcaption></figcaption></figure>
 
 Utilibox supports **any enterprise SAML token provider**, including **Microsoft Entra ID**, allowing organisations to centralise identity management while enforcing strong access controls.
+
+
 
 _**OLA not BOLA**_
 

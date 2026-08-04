@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Adding a Procurement Event
 
 1. Click the “Add New” button
@@ -23,6 +44,6 @@
    * Actions - View latest invoice, View Offers and Delete
 6. Click Save – once saved, there are 2 processes that will be executed in the background
    * Utilibox will scrape Retailer market Offers from Energy Made Easy (EME) portal.\
-     &#xNAN;_&#x4E;ote: EME only covers NSW, QLD, SA, TAS and ACT_
+     _&#x4E;ote: EME only covers NSW, QLD, SA, TAS and ACT_
    * Energy Action Exclusive Offers are built using the exclusive rates provided by retailers to Energy Action.
 

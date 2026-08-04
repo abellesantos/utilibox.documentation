@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Refreshing Offers
 
 This functionality allows EAX Admins to “refresh/recreate” any Energy Action Exclusive Offers as some offers may get outdated or previously missing data becomes available.

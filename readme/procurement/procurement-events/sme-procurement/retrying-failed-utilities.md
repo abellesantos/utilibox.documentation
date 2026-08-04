@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Retrying Failed Utilities
 
 This functionality allows EAX Admins to “retry” any Energy Action Exclusive Offers for utilities with failed status, as some may have had issues due to incomplete or incorrect data that has been resolved.

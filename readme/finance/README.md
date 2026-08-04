@@ -2,6 +2,24 @@
 description: >-
   Save time and cut costs—automate payments, track spending, and manage invoices
   in one place.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Finance

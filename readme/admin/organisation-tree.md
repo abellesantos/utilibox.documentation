@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Organisation Tree
 
 Managing multiple subsidiaries and sites can quickly become overwhelming without a clear structure. The Organisation Tree solves this by giving admin users a structured view of the entire hierarchy, making it easy to manage entities, subsidiaries, and site details within one central place.

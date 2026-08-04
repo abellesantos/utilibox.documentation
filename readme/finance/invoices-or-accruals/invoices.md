@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Invoices
 
 This page displays all processed and received invoices for the organization in Utilibox.
@@ -6,7 +27,7 @@ This page displays all processed and received invoices for the organization in U
 > &#x20;_- current month invoice period_\
 > &#x20;_- current month issue date_\
 > \
-> &#xNAN;_&#x43;licking on the “View All Historical Invoices” will remove the default filters and will show all available invoices for the organisation_
+> _&#x43;licking on the “View All Historical Invoices” will remove the default filters and will show all available invoices for the organisation_
 
 * Invoice Type – this field shows the type of invoice received
   * Standard

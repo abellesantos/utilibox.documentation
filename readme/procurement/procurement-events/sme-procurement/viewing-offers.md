@@ -1,7 +1,28 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Viewing Offers
 
 1. From the details page, select the option “View Offers” from the Actions button\
-   &#xNAN;_&#x4E;ote: Offers will only be available a few minutes after creating a Procurement Event_
+   _&#x4E;ote: Offers will only be available a few minutes after creating a Procurement Event_
 2. Once clicked, a list of Retailer Market Offers and Energy Action Exclusive Offers will be listed.
 3. Click the download arrow to expand the cards per offer, once expanded all the details will be shown
    * Daily Average Usage – shows data source
