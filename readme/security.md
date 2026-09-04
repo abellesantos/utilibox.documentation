@@ -36,8 +36,6 @@ When it comes to authentication, one out of three factors (password‑only) is b
 
 Utilibox supports **any enterprise SAML token provider**, including **Microsoft Entra ID**, allowing organisations to centralise identity management while enforcing strong access controls.
 
-
-
 _**OLA not BOLA**_
 
 Utilibox has been written ground-up with customer cybersecurity at the forefront of the architecture. We have employed stringent Object Level Authorization design which ensures your security amongst our other secure clients.
@@ -49,3 +47,39 @@ Utilibox adheres to the regulations set forth in the Australian Privacy Act 1988
 _**Energy Action Employees are Cyber-Guardians**_
 
 All Energy Action employees understand that they're integral to our cybersecurity fortress. Energy Action employees undergo regular cybersecurity training and participate in drills to make sure they can detect and respond quickly and effectively in the event of a security incident.
+
+_**AI Stays in Its Lane**_
+
+Our AI solution has strict data containment and security boundaries. Energy Action and customer information remains protected throughout each AI interaction.
+
+**No training on organisation data**
+
+We do not use Energy Action data, customer data, prompts, documents, or conversations to train foundation AI models. Information stays within the operating environment. It does not become part of future model training.
+
+**Improving the experience, not learning your content**
+
+We may analyse interactions to improve prompt handling, workflows, and user experience. This does not use organisational data, customer content, or business information to train or improve AI models. The focus remains on system behaviour.
+
+**Contained within our Azure tenancy**
+
+All AI processing operates within the Energy Action Australia East Azure tenancy. Existing security controls protect requests and data processing. These controls include access restrictions, identity management, monitoring, and governance.
+
+AI agents cannot independently access or transmit information outside these boundaries. A controlled interface must explicitly permit any external connection.
+
+**External research has guardrails**
+
+Company research uses a separate, isolated AI agent for public web lookups. The primary AI agent cannot access the internet or external web services directly.
+
+The research agent receives only public company identifiers:
+
+* Company name
+* Australian Business Number (ABN)
+
+Customer data, internal documents, emails, business records, and conversations cannot pass through this interface. This separation prevents organisational information from reaching external research sources.
+
+In practice, our AI follows four principles:
+
+* It does not train on Energy Action or customer data.
+* It improves system behaviour without learning from organisational content.
+* It remains within our Azure security boundaries.
+* External research receives only public company identifiers.
