@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Dashboard
@@ -38,13 +40,13 @@ Upon login, users land on the organization’s dashboard, where they can navigat
 6. Hamburger button - this feature allows users to hide/show the toolbar
 7. Toolbar - this feature allows users to navigate the available menus
 
-<figure><img src="../.gitbook/assets/Dashboard Toolbar.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard Toolbar.gif" alt=""><figcaption></figcaption></figure>
 
 You need to see an overview of your organization? At a quick glance you'll be able to view:
 
-1. **Sites Under Management** - shows the number of sites with details of number of supply points and their current status for your organization. With a quick link to the [Sites](portfolio-and-sites/) page.
-2. **Total Amount Due** - shows your organization's total bills/amount to be paid from the most recent invoices received for the month. With a quick link to the [Invoices](finance/invoices-or-accruals/) page with applied filters.
-3. **Total Amount Overdue** - shows your organization's total missed bills/amount to be paid from previous months invoices. With a quick link to the [Invoices](finance/invoices-or-accruals/) page with applied filters.
+1. **Sites Under Management** - shows the number of sites with details of number of supply points and their current status for your organization. With a quick link to the [Sites](../portfolio-and-sites/) page.
+2. **Total Amount Due** - shows your organization's total bills/amount to be paid from the most recent invoices received for the month. With a quick link to the [Invoices](../finance/invoices-or-accruals/) page with applied filters.
+3. **Total Amount Overdue** - shows your organization's total missed bills/amount to be paid from previous months invoices. With a quick link to the [Invoices](../finance/invoices-or-accruals/) page with applied filters.
 4. **Invoice Completeness** - shows your organization's stats of invoices received in the last 12 months. With a quick link to the Missing Invoices page with applied filters.
 5. **Spend Chart** - shows your organization's monthly spend per commodity and broken down per charge based on available invoices with comparison from previous to current calendar year.
 6. **Emissions Chart** - shows your organization's monthly emissions per commodity based on avalable usage data with comparison from previous to current calendar year.
@@ -52,4 +54,4 @@ You need to see an overview of your organization? At a quick glance you'll be ab
 
 Utilibox makes managing your energy simpler and user-friendly.
 
-<figure><img src="../.gitbook/assets/Dashboard.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard.png" alt=""><figcaption></figcaption></figure>

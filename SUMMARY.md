@@ -1,7 +1,12 @@
 # Table of contents
 
 * [Utilibox Documentation](README.md)
-  * [Dashboard](readme/dashboard.md)
+  * [Dashboard](readme/dashboard/README.md)
+    * [Utilibox AI](readme/dashboard/utilibox-ai/README.md)
+      * [Accessing Utilibox AI](readme/dashboard/utilibox-ai/accessing-utilibox-ai.md)
+      * [Getting Started](readme/dashboard/utilibox-ai/getting-started.md)
+      * [Understanding the AI Workspace](readme/dashboard/utilibox-ai/understanding-the-ai-workspace.md)
+      * [What Can Utilibox AI Help With?](readme/dashboard/utilibox-ai/what-can-utilibox-ai-help-with.md)
   * [Portfolio and Sites](readme/portfolio-and-sites/README.md)
     * [Invoices Modal](readme/portfolio-and-sites/invoices-modal.md)
     * [Contracts Modal](readme/portfolio-and-sites/contracts-modal.md)
